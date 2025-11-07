@@ -1,0 +1,54 @@
+/* Import a suitable Google Font for Bangla or use a font-face declaration */
+@import url('https://fonts.googleapis.com/css2?family=Kalpurush&display=swap');
+
+/* Define the A4 page size and overall print styles */
+@page {
+    size: A4;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: #000 double;
+    margin-bottom: 5px;
+}
+.logo-container {
+    width: 15%;
+    text-align: left;
+    text-indent: 10%;
+}
+.bank-info {
+    width: 50%;
+    text-indent: 20%;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.25;
+}
+.bank-name {
+    font-size: 20pt;
+    color: #008641;
+    margin-bottom: 0px;
+}
+.branch-info {
+    font-size: 12pt;
+    margin-bottom: 0px;
+}
+.website {
+    margin-bottom: 10px;
+}
+.website a {
+    font-family: 'Times New Roman', Times, serif;
+    color: #0000FF;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.contact-info {
+    margin-top: 3.5%;
+    width: 30%;
+    text-align: right;
+    font-size: 10pt;
+    font-style: italic;
+    line-height: 1.35;
+}
